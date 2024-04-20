@@ -1,0 +1,142 @@
+@font-face {
+    font-family: GoogleFont;
+    src: url("./google_font_1.ttf");
+}
+
+input {
+	width: 36%;
+	height: 2.8em;
+	color: #eeeeee;
+	font-size: 1.4em;
+	outline: none;
+	border-radius: 8px;
+	border: none;
+	background-color: #333333;
+	padding-left: 1.06%;
+	padding-right: 1.06%;
+	padding-top: 0.13%;
+	padding-bottom: 0.13%;
+	transition-duration: 200ms;
+	font-family: monospace;
+	font-size: 18px;
+}
+body {
+	background-color: #1c1c1c;
+	margin: 0px;
+	height: 100%;
+}
+div {
+	margin-top: 150px;
+}
+
+h2.google {
+	color: #eeeeee;
+	font-size: 160px;
+	font-family: GoogleFont;
+	transition-duration: 700ms;
+	text-align: center;
+	margin-bottom: 75px;
+}
+
+h2.ddg {
+	color: #eeeeee;
+	font-size: 140px;
+	font-family: monospace;
+	transition-duration: 700ms;
+	text-align: center;
+	margin-bottom: 75px;
+}
+
+h2.social {
+	color: #eeeeee;
+	font-size: 140px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	transition-duration: 700ms;
+	text-align: center;
+	margin-bottom: 75px;
+}
+
+.red {
+	color: rgb(255, 40, 40);
+	text-shadow: rgba(255, 40, 40, 1) 0px 0px 80px;
+}
+
+.blue {
+	color: rgb(17, 53, 255);
+	text-shadow: rgba(17, 53, 255, 1) 0px 0px 80px;
+}
+
+.yellow {
+	color: rgb(255, 238, 0);
+	text-shadow: rgba(255, 238, 0,1) 0px 0px 80px;
+}
+
+.green {
+	color: rgb(0, 212, 11);
+	text-shadow: rgba(0, 212, 11, 1) 0px 0px 80px;
+}
+
+.white {
+	color: rgb(255, 255, 255);
+	text-shadow: rgba(255, 255, 255, 1) 0px 0px 80px;
+}
+
+.purple {
+	color: rgb(182, 104, 255);
+	text-shadow: rgba(182, 104, 255, 1) 0px 0px 80px;
+}
+
+.orange {
+	color: rgb(255, 159, 104);
+	text-shadow: rgba(255, 159, 104, 1) 0px 0px 80px;
+}
+
+.redditish {
+	color: rgb(255, 86, 0);
+	text-shadow: rgba(255, 86, 0, 1) 0px 0px 80px;
+}
+
+span {
+	margin-right: 16px;
+	transition-duration: 200ms;
+}
+
+
+input:hover {
+	-webkit-box-shadow:0px 0px 39px 5px rgba(51,51,51,0.65);
+	-moz-box-shadow: 0px 0px 39px 5px rgba(51,51,51,0.65);
+	box-shadow: 0px 0px 39px 5px rgba(51,51,51,0.65);
+}
+
+input:focus {
+	-webkit-box-shadow:0px 0px 39px 5px rgba(51,51,51,0.65);
+	-moz-box-shadow: 0px 0px 39px 5px rgba(51,51,51,0.65);
+	box-shadow: 0px 0px 39px 5px rgba(51,51,51,0.65);
+}
+
+div#bottomToolbar {
+	position: absolute;
+	bottom: 50px;
+	text-align: center;
+	width: 100%;
+}
+
+div#bottomToolbar > button {
+	background-color: transparent;
+	border: none;
+	padding: 0px 15px 0px 15px;
+}
+
+img {
+	width: 80px;
+	height: auto;
+	border-radius: 150%;
+	transition-duration: 200ms;
+}
+
+button:hover > img {
+	box-shadow: 0px 0px 24px 5px rgba(67, 67, 67, 0.75);
+	background-color: rgba(67, 67, 67, 0.40);
+	width: 100px;
+	/* background-color: transparent; */
+}
